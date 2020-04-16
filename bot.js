@@ -14,7 +14,7 @@ let c = g.channels.get("694888919933911121");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
-if(g.me.voiceChannel && g.me.voiceChannelID !== c.id || !g.me.voiceChannel) c.join("694888919933911121");
+if(g.me.voiceChannel && g.me.voiceChannelID !== c.id || !g.me.voiceChannel) c.join();
 }, 1000);
 }
 });
