@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setGame('w!b (Message) - w&w 🎆',"https://www.twitch.tv/peery13");
+	client.user.setGame('Free Fire',"https://www.twitch.tv/peery13");
 });
 
 client.on('ready',async () => {
