@@ -2,8 +2,8 @@ const { Attachment, Client, RichEmbed } = require("discord.js");
 const client = new Client({ disableEveryone: true });
 
 client.on('ready', () => {
-let g = client.guilds.get("675719509507702784");
-let c = g.channels.get("675776535877124145");
+let g = client.guilds.get("694888918331686943");
+let c = g.channels.get("694888919933911121");
 if(c.type == 'voice') {
 setInterval(() => {
 c.join();
