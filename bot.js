@@ -8,17 +8,15 @@ client.on('ready', () => {
 	client.user.setGame('Free Fire',"https://www.twitch.tv/peery13");
 });
 
-client.on('ready',async () => {
-let g = client.guilds.get("694888918331686943");
-let c = g.channels.get("694888919933911121");
-if(c.type === 'voice') {
-c.join();
+client.on('ready', () => {
+let g = client.guilds.get("675719509507702784");
+let c = g.channels.get("675776535877124145");
+if(c.type == 'voice') {
 setInterval(() => {
-if(g.me.voiceChannel && g.me.voiceChannelID !== c.id || !g.me.voiceChannel) c.join();
-}, 1000);
+c.join();
+}, 100);
 }
 });
-
 
 
 
